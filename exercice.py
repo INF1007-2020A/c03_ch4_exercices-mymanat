@@ -8,23 +8,21 @@ def is_even_len(string: str) -> bool:
 
 
 def remove_third_char(string: str) -> str:
-    return string[:2]+ string{:3]
+    return string[:2]+ string[3:]
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    old_char_index= string.find(old_char)
-    return string[:old_char_index]+ new_char+ string{old_char_index+1:]
+    return string.replace(old_char, new_char)
     
-   #
                                                 
 
 
 def get_nb_char(string: str, char: str) -> int:
-    return count(char)
+    return string.count(char)
 
 
 def get_nb_words(sentence: str) -> int:
-    nb_mots= count('')+2
+    nb_mots= len(sentence.split())
     return nb_mots
 
 
