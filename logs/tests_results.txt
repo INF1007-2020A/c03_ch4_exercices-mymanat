@@ -15,6 +15,6 @@ Traceback (most recent call last):
 TypeError: get_nb_words() takes 1 positional argument but 2 were given
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.001s
+Ran 5 tests in 0.000s
 
 FAILED (errors=1)
