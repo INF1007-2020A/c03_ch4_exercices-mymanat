@@ -22,7 +22,7 @@ def get_nb_char(string: str, char: str) -> int:
 
 
 def get_nb_words(sentence: str) -> int:
-    nb_mots= len(sentence.split())
+    nb_mots= sentence.count(' ')+1
     return nb_mots
 
 
